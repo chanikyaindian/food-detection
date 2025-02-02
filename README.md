@@ -21,8 +21,8 @@ Install Dependencies: Next, they need to install the required Python packages. I
 pip install -r requirements.txt
 
 ### Run the Backend: They can now run the backend server with:
-''' uvicorn main:app --reload '''
+`uvicorn main:app --reload`
 This should start the app on their machine, typically accessible at http://localhost:3000.
 ### Run the Frontend: To start the frontend server, they can run:
-''' npm run dev '''
+`npm run dev`
 This will start the backend server, typically accessible at http://localhost:8000
